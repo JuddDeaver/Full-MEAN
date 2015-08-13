@@ -18,7 +18,7 @@
     <li ng-repeat="friend in friends | filter: filter_name">
     <span ng-bind="friend.name"></span>
     <span ng-bind="friend.age"></span>
-    <span><a><button ng-click='removeFriend(friend)'>Remove</button></a></span>
+    <button ng-click='removeFriend(friend)'>Remove</button>
     </li>
   </ul>
   <h1>Add a Friend</h1>
